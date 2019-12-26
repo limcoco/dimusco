@@ -1,0 +1,83 @@
+.institution-form h2 {
+  text-align: center;
+  border-bottom: none;
+}
+.institution-form .inst-form-header {
+  display: flex;
+  justify-content: space-between;
+}
+.institution-form .inst-form-header label {
+  font-size: 18px;
+}
+.institution-form .inst-form-wrp {
+  border: 1px solid #b2b2b2;
+  margin-top: 40px;
+  position: relative;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+.institution-form .radio span {
+  cursor: pointer;
+}
+.institution-form .inst-form-wrp legend {
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  font-size: 18px;
+  background: white;
+}
+.institution-form .publisher-main-wrapper {
+  padding: 30px 15px;
+}
+.institution-form .publisher-main-wrapper .form-group {
+  margin-bottom: 8px;
+  padding-left: 15px;
+}
+.institution-form .publisher-main-wrapper .form-validation-error-horizontal {
+  max-width: unset;
+  width: unset;
+  flex: 3;
+  padding-right: 15px;
+}
+.institution-form .publisher-main-wrapper .start-middle-content {
+  flex: 1;
+}
+.institution-form .publisher-main-wrapper .start-middle-content label {
+  font-size: 18px;
+}
+.institution-form .ml-3 {
+  margin-left: 15px;
+}
+.institution-form .mt-3 {
+  margin-top: 15px;
+}
+.institution-form .mt-3 label {
+  font-size: 18px;
+}
+.institution-form .address-wrap label {
+  line-height: 1;
+  font-size: 18px;
+}
+.institution-form .inst-form-wrp .address-extra-lbl {
+  left: 50px;
+  padding: 0 0 0 15px;
+  background-color: #ffffff;
+}
+.institution-form .inst-form-wrp .check-box {
+  position: absolute;
+  top: -10px;
+  left: 25px;
+}
+.inst-form-wrp .control--checkbox {
+  margin-bottom: 0;
+  position: absolute;
+}
+.control__indicator {
+  cursor: pointer;
+}
+.publisher-main-wrapper .form-group:last-child {
+  margin-bottom: 0;
+}
+.institution-form .btns-wrp button {
+  margin: 0 auto;
+}

@@ -1,0 +1,81 @@
+.remembered-scores > .btn {
+    width: 80%;
+    margin: 30px auto 0;
+    display: block;
+}
+
+.remembered-scores .modal__small,
+.remembered-scores .modal .content-wrp {
+    width: 100%;
+}
+
+.remembered-scores .modal .content-wrp h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.remembered-scores .close {
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.remembered-scores  .modal .modal__content {
+    padding: 20px 50px;
+}
+
+.remembered-scores  ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    border: 1px solid #cccccc;
+    width: 100%;
+    margin-bottom: 30px;
+    max-height: 206px;
+    overflow-y: auto;
+}
+
+.remembered-scores  ul  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.remembered-scores .remembered-scores-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remembered-scores .remembered-scores-footer input {
+    height: 30px;
+    padding: 15px;
+}
+
+
+.remembered-scores .remembered-scores-details .modal .modal__content {
+    max-width: 800px;
+}
+
+
+.remembered-scores .remembered-scores-details ul li {
+    font-size: 16px;
+    text-align: left;
+    line-height: 20px;
+}
+
+.remembered-scores .remembered-scores-details .btn.black.small {
+    font-size: 11px;
+    min-width: 200px;
+}
+
+.remembered-scores .remembered-scores-details .btn.black.meduim {
+    font-size: 16px;
+    padding: 10px 22px;
+    min-width: 200px;
+}

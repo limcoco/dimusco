@@ -1,0 +1,86 @@
+.rearrange-pages {
+    padding: 20px 0;
+}
+
+.rearrange-pages .page {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    position: relative;
+}
+
+.rearrange-pages .page.disabled {
+    background-color: #eeeeee;
+}
+
+.rearrange-pages .page h3 {
+    font-size: 25px;
+}
+
+.rearrange-pages img,
+.rearrange-pages .message-box {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.rearrange-pages input[type="checkbox"] {
+    margin-left: 5px;
+}
+
+.rearrange-pages .badge {
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    padding: 6px 20px 3px 5px;
+    font-size: 80px;
+    cursor: pointer;
+}
+
+.rearrange-pages .btn.black {
+    padding: 2px;
+    min-width: 1px;
+    font-size: 50px;
+    font-weight: normal;
+    line-height: 28px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    width: 34px;
+    height: 34px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.rearrange-pages .modal .d-flex {
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.rearrange-pages .modal__small {
+    max-width: 400px;
+}
+
+.rearrange-pages .modal .content-wrp {
+    max-width: none;
+    width: 100%;
+}
+
+.rearrange-pages .modal input {
+    width: auto;
+    min-width: 1px;
+    margin: 0 10px;
+}
+
+.rearrange-pages .modal .modal__content {
+    padding: 100px 85px;
+}
+
+.rearrange-pages .modal label {
+    white-space: nowrap;
+}

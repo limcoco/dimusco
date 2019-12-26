@@ -1,0 +1,28 @@
+.tickets .box {
+  border-radius: 5px;
+  border: 1px solid #ebebeb;
+  padding: 9px 32px 6px;
+  position: relative;
+  margin-bottom: 36px;
+  min-height: 131px;
+  width: 100%;
+}
+
+.tickets .header-wrp .box {
+  min-height: 1px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.tickets .modal .modal__content {
+  text-align: left;
+}
+
+.p-50 {
+  padding: 0 50px;
+}
+
+.tickets .remove-modal .modal .content-wrp .comments {
+  max-height: 55vh;
+  overflow-y: auto;
+}

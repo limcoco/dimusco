@@ -1,0 +1,75 @@
+.score-settings h2 {
+    margin-bottom: 30px;
+}
+
+.score-settings h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-size:  22px;
+    font-weight: normal;
+}
+
+.score-settings .buttons-wrp {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.score-settings .user-content full-height {
+    height: auto;
+}
+
+.score-settings .book-list .table-cell .standart-container:last-of-type {
+    border: 0;
+}
+
+.score-settings .d-flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.score-settings input {
+    width: 90%;
+    margin: 0 0 5px auto;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    font-size: 17px;
+}
+
+.score-settings .book-list .row-header .col-content:first-of-type .sort-icon {
+    display: inline;
+}
+
+.score-settings .remove-modal .modal .content-wrp {
+    max-width: 100%;
+    margin: 0;
+    width: 100%;
+}
+
+.score-settings .remove-modal .modal__icon {
+    display: none;
+}
+
+.score-settings .remove-modal .table-cell .control {
+    margin: 0;
+}
+
+.score-settings .remove-modal .table-cell .standart-container .col-content {
+    display: flex;
+    justify-content: center;
+}
+
+.score-settings .remove-modal .btn {
+    margin-top: 40px;
+}
+
+.score-settings .book-list .table-cell li * {
+    text-align: left;
+}
+
+.score-settings .book-list .table-cell li .member-menu {
+    text-align: right;
+}

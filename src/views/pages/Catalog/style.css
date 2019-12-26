@@ -1,0 +1,23 @@
+.catalog-page .search-controls .jtab-ul {
+    padding-bottom: 0;
+}
+
+.catalog-page .col-content {
+    padding: 16px;
+}
+
+.catalog-page .book-list .col-content {
+    flex-basis: 12%;
+    max-width: 12%;
+    word-break: break-word;
+}
+
+.catalog-page .book-list .title-column {
+    flex-basis: 15%;
+    max-width: 15%;
+}
+
+.catalog-page .book-list .orchestration-column {
+    flex-basis: 25%;
+    max-width: 25%;
+}

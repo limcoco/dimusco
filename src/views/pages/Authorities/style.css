@@ -1,0 +1,70 @@
+.authorities .book-list {
+    padding: 0;
+}
+
+.authorities .book-list .row-header {
+    background-color: #f3f3f3;
+}
+
+.authorities h1 {
+    color: #313131;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.authorities .header-wrp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 0 0;
+}
+
+.authorities .header-wrp .btn {
+    padding: 12px 22px;
+    width: 50%;
+    font-size: 18px;
+}
+
+.authorities .book-list .table-cell li.is_active {
+    background-color: #eeeeee;
+}
+
+.add-authority-modal .modal__content {
+    max-width: 700px;
+    text-align: left;
+}
+
+.add-authority-modal .modal__content .content-wrp {
+    width: 100%;
+}
+
+.authorities .book-list .table-cell li * {
+    word-break: break-word;
+}
+
+
+.authorities ul.pagination > li {
+    letter-spacing: 1px;
+    padding: 12px;
+}
+
+.authorities .header-wrp label {
+    padding-left: 5px;
+}
+
+.authorities .header-wrp .select select {
+    height: 30px;
+}
+
+.authorities .catalog-nav .container-setprice {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.authorities .filters-catalog {
+    padding-top: 10px;
+}

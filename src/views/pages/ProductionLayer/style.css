@@ -1,0 +1,9 @@
+.layer-content {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+}
+
+.production-layers .member-list {
+    max-height: none;
+}

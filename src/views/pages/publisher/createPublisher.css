@@ -1,0 +1,16 @@
+.create-pub-page .modal .close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.action-buttons a:not(:last-of-type) {
+    margin-right: 10px;
+}
+
+.action-buttons {
+    display: flex;
+    align-items: center;
+}

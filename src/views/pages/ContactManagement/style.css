@@ -1,0 +1,158 @@
+.manage-contacts .box p {
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 130%;
+}
+
+.manage-contacts h2 {
+    margin-bottom: 10px;
+}
+
+.manage-contacts .box p:first-of-type {
+    margin-bottom: 10px;
+}
+
+.manage-contacts .box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    width: 100%;
+    min-height: 20px;
+    margin-top: 20px;
+    height: 100px;
+}
+
+.manage-contacts .btn-add-large {
+    margin-top: -12px;
+}
+
+.manage-contacts .box .box-footer {
+    display: block;
+    padding-top: 13px;
+}
+
+.manage-contacts .box .box-footer a {
+    display: block;
+    margin: 0 0 10px 0;
+}
+
+.contacts-groups .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    min-height: 20px;
+    margin-top: 20px;
+    height: 80px;
+}
+
+.contacts-groups .box h3 {
+    font-size: 28px;
+    margin: 0;
+    padding-left: 0;
+    width: calc(100% - 135px);
+    line-height: 70px;
+    cursor: pointer;
+}
+
+.contacts-groups .box .box-footer {
+    padding: 0;
+}
+
+.header-buttons .btn {
+    margin-right: 10px;
+}
+
+.manage-contacts .header-buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.manage-contacts .header-buttons .btn.black.small {
+    min-width: 1px;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.contacts-groups .box.active {
+    background-color: #cccccc;
+}
+
+.manage-contacts .create-group button.btn.black.small {
+    min-width: 100px;
+    margin: 0;
+}
+
+.manage-contacts .create-group .form-group {
+    height: auto;
+}
+
+.manage-contacts .create-group label {
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.manage-contacts  h3 {
+    color: #313131;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-left: 0;
+}
+
+.manage-contacts div[class^='col'] {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.contacts-wrp .MuiList-padding-4 {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.contacts-wrp .MuiList-padding-4{
+    padding-top: 0px;
+}
+.member-name input{
+    width: 90%;
+}
+
+.manage-contacts .search-from {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.manage-contacts .search-from input {
+    width: 100%;
+    height: 33px;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.manage-contacts .search-from button.btn.black.small {
+    padding: 10px 15px;
+    min-width: 1px;
+    width: 100px;
+}
+
+.manage-contacts ul.pagination > li {
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+
+.manage-contacts .search-from .search-input {
+    padding: 0;
+    width: 100%;
+}
+
+.arrow-button {
+    position: absolute;
+    right: -27px;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}

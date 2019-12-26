@@ -1,0 +1,111 @@
+.relations .btn-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.relations .btn {
+  font-size: 14px;
+  margin-bottom: 10px;
+  border: none;
+  transition: 0.1s;
+}
+
+.relations .btn:hover {
+  background-color: #c3c3c3;
+  color: #313131;
+}
+
+.relations .more {
+  position: relative;
+}
+
+.relations .more ul {
+  position: absolute;
+  left: 50%;
+  top: 45px;
+  background-color: #fff;
+  z-index: 999;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  width: 70%;
+  transform: translateX(-50%);
+  text-align: center;
+  padding: 0;
+}
+
+.relations .more ul li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.relations .more ul li:hover {
+  background-color: #eee;
+}
+
+.relations .more ul:after {
+  content: '';
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #eee;
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  transform: translateX(-50%)
+}
+
+.relations .submenu__item {
+  border: none !important;
+  padding: 3px;
+}
+
+.relations .table-cell {
+  margin-bottom: 20px;
+  min-height: 50vh;
+}
+
+.relations .more a {
+  font-size: 30px;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.relations .more {
+  position: absolute;
+  right: 0;
+  top: 0;
+  flex-basis: 16.66666667%;
+  max-width: 16.66666667%;
+  width: 16.66666667%;
+  padding: 0;
+}
+
+.relations .remove-modal .modal .content-wrp {
+  max-width: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+.relations .remove-modal .modal__icon {
+  display: none;
+}
+
+.relations .remove-modal .table-cell .control {
+  margin: 0;
+}
+
+.relations .remove-modal .table-cell .standart-container .col-content {
+  display: flex;
+  justify-content: center;
+}
+
+.relations .remove-modal .btn {
+  margin-top: 40px;
+}
+
+.relations .remove-modal .book-list .row-header .col-content {
+  padding: 16px;
+}

@@ -1,0 +1,28 @@
+.update-upload .form-group {
+    max-height: none;
+    height: auto;
+}
+
+.update-upload  {
+    padding: 40px;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+.update-upload h2.title {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.update-upload .form-group .form-control {
+    height: 30px;
+}
+
+.upload-score div.table-cell {
+    max-height: 306px;
+    border-bottom: 1px solid;
+}

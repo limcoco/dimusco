@@ -1,0 +1,13 @@
+.profile-page form textarea.form-control {
+    height: auto;
+}
+
+.profile-page .box .box-footer a:not(:last-of-type) {
+    margin-right: 30px;
+}
+
+.add-contact .btns-wrp .btn.black {
+    font-size: 20px;
+    padding: 10px 20px 8px;
+    min-width: 100px;
+}

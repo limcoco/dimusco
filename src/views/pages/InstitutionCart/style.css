@@ -1,0 +1,49 @@
+.institution-wrp .book-list {
+    padding: 0;
+}
+
+.institution-wrp .deliver-section {
+    border-radius: 5px;
+}
+
+.institution-wrp .border-table-generator {
+    border-color: #cccccc;
+}
+
+.institution-wrp .deliver-section .dates-wrp {
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.institution-wrp .divider-midle .control--checkbox {
+  background: #fff;
+  margin-bottom: 0;
+}
+
+.institution-wrp .disabled {
+    background-color: #ebebeb;
+}
+
+.institution-wrp .disabled-opacity {
+    opacity: 0.4;
+}
+
+.institution-wrp .border-table {
+    border: 1px solid #cccccc;
+}
+
+
+.institution-wrp .inst-cart-addresses .address {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.institution-wrp .inst-cart-addresses .address p {
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.institution-wrp .inst-cart-addresses .address .control {
+    margin-bottom: 1.3em;
+}

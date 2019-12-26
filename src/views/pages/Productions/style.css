@@ -1,0 +1,16 @@
+.productions ul.institution-list li {
+    margin: 10px 0px;
+    background-color: #e8e8e8;
+}
+
+.productions ul.institution-list {
+    margin: 0px;
+    display: block;
+    background-color: transparent;
+}
+
+.productions ul.institution-list li:hover {
+    background-color: #111;
+    cursor: pointer;
+    color: white;
+}

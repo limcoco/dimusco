@@ -1,0 +1,12 @@
+.custom-form .textbox-input {
+    min-width: 400px;
+}
+
+.container-setdiscount .contain-type-from-to {
+    align-items: flex-end;
+    padding-top: 10px;
+}
+
+.container-setdiscount .btn.black {
+    margin-top: 15px;
+}

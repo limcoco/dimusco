@@ -1,0 +1,23 @@
+.add-score-modal .modal .content-wrp {
+    max-width: 100%;
+    margin: 0;
+    width: 100%;
+}
+
+.add-score-modal .modal__icon {
+    display: none;
+}
+
+.add-score-modal .table-cell .control {
+    margin: 0;
+}
+
+.add-score-modal .table-cell .standart-container .col-content {
+    display: flex;
+    justify-content: center;
+}
+
+.add-score-modal .btn {
+    margin-top: 40px;
+}
+

@@ -1,0 +1,55 @@
+.group-page .btn-wrp .btn.black.small {
+    min-width: 1px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.group-page .btn-wrp .btn.black.small:not(:last-of-type) {
+    margin-right: 10px;
+}
+
+.group-page .btn-wrp {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+
+.group-page .group-wrp {
+    padding-left: 20px;
+}
+
+.plus-btn {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.group-page .member .delete-btn .delete-icon {
+    position: static;
+}
+
+.group-page .member .delete-btn {
+    right: -5px;
+    top: 4px;
+}
+
+.production-groups .member .delete-btn {
+    right: 10px;
+    top: 17px;
+}
+
+.gi-header {
+    position: relative;
+}
+
+
+.group-page .gi-title {
+    width: 100%;
+}
+
+.group-page .member.hide-children + ul {
+    display: none;
+}

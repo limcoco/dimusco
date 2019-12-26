@@ -1,0 +1,249 @@
+.invitations {
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+
+.invitations form .form-control {
+    border-radius: 5px;
+    border: 1px solid #808080;
+    opacity: 0.6;
+    color: #313131;
+    font-size: 18px;
+    font-weight: 400;
+    height: 30px;
+    background-color: #ffffff;
+    padding: 5px;
+}
+
+.invitations form label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #313131;
+    font-weight: 400;
+}
+
+.invitations h2 {
+    color: #313131;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.invitations form .form-group {
+    margin-bottom: 24px;
+    height: auto;
+}
+
+.invitations form .form-group:last-of-type {
+    margin-bottom: 0;
+}
+
+.invitations form textarea.form-control {
+    height: 120px;
+}
+
+.invitations form textarea.form-control.urls {
+    text-align: center;
+    line-height: 108px;
+}
+
+.invitations form textarea.form-control.urls:focus {
+    text-align: left;
+    line-height: 100%;
+}
+
+.invitations .box {
+    border-radius: 5px;
+    border: 1px solid #ebebeb;
+    padding: 13px 32px 30px;
+    position: relative;
+    margin-bottom: 36px;
+    min-height: 131px;
+    border: 0;
+    padding: 0;
+}
+
+.invitations .centered-btn .btn.black {
+    text-transform: none;
+}
+
+.invitations .centered-btn {
+    text-align: center;
+}
+
+.invitations .btn.black.small {
+    margin-bottom: 8px;
+    padding: 10px 19px 8px;
+    text-transform: none;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.invitations .invitation-contacts .box {
+    padding: 0;
+    border: 0;
+    min-height: 1px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.invitations .invitation-contacts .manage-contacts .contacts-wrp {
+    border-left: 0;
+}
+
+.invitations .invitation-contacts .modal .content-wrp h3 {
+    padding-left: 0;
+}
+
+.invitations .invitation-contacts .box p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: left;
+    line-height: 20px;
+    margin-right: 5px;
+}
+
+.invitations .invitation-contacts .modal__icon {
+    display: none;
+}
+
+.invitations .invitation-contacts .modal .modal__content {
+    padding: 50px 50px 20px;
+    max-height: calc(100vh - 100px);
+    overflow: auto;
+}
+
+.invitations .invitation-contacts .btn.black {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.invitations .invitation-contacts .close {
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.invitations .radios-wrp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.invitations .radios-wrp .radio .label {
+    font-size: 18px;
+    color: #313131;
+    font-weight: 400;
+}
+
+.invitations .invitation-contacts .full-height {
+    height: auto;
+}
+
+.invitations .invitation-contacts .box-footer  {
+    justify-content: center;
+}
+
+.invitations .invitation-contacts .profile-page .box .box-footer a:first-of-type {
+    margin: 0;
+}
+
+.invitations .invitation-contacts .manage-contacts {
+    padding: 10px;
+    overflow: visible;
+}
+
+.invitations .filters-catalog .zeuge-box .select {
+    width: 140px;
+}
+
+.invitations .filters-catalog .zeuge-box .select input {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    -moz-appearance: textfield;
+}
+
+.invitations .filters-catalog .zeuge-box .select input::-webkit-inner-spin-button, 
+.invitations .filters-catalog .zeuge-box .select input::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+
+.invitations .filters-catalog .zeuge-box:last-of-type .select {
+    width: 40px;
+}
+
+
+.invitations .modal .content-wrp {
+    max-width: none;
+    width: 100%;
+}
+
+.invitation-contacts .modal .content-wrp h3 {
+    max-width: none;
+}
+
+.invitations .form-group > div > .delete-btn,
+.invitations .form-group > div > .delete-btn .delete-icon {
+    position: static;
+    margin: 0;
+}
+
+
+.manage-contacts .search-from button.btn.black.small {
+    margin-bottom: 0;
+}
+
+.invitations .filters-catalog {
+    padding-top: 0;
+}
+
+.invitations .center-content .control__indicator {
+    left: auto;
+    right: 0;
+    border: 2px solid #b3b3b3;
+}
+
+.invitations .center-content .control {
+    padding-left: 0;
+    padding-right: 2em;
+    margin-bottom: 0;
+}
+
+.invitations-list-modal .col-content {
+    width: 10%;
+}
+
+.invitations-list-modal .double-width {
+    width: 20%;
+}
+
+.invitations-list-modal .modal__icon {
+    display: none;
+}
+
+.invitations-list-modal .search-input {
+    padding: 0;
+}
+
+.invitations-list-modal .search-input .search-text {
+    height: 40px;
+    padding: 10px;
+}
+
+.invitations-list-modal .search-input .btn.black.small {
+    margin-bottom: 0;
+    width: 100px;
+    max-width: none;
+}
+
+.invitations-list-modal .modal .modal__content {
+    padding-top: 20px;
+}

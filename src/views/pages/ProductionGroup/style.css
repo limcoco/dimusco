@@ -1,0 +1,17 @@
+.production-groups .avatar-row > div.avatar,
+.production-groups .overlay-page-body-row {
+    position: static;
+}
+
+.production-groups .modal .content-wrp {
+    width: 100%;
+}
+
+.group-page .member .context-show {
+    padding: 0;
+}
+
+.group-page .dropdown-wrp .dropdown-head {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}

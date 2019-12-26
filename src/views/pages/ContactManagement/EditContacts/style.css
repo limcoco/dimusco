@@ -1,0 +1,23 @@
+.manage-contacts .edit-contact-modal .content-wrp {
+    max-width: none;
+}
+
+.manage-contacts .edit-contact-modal .full-height {
+    max-height: none;
+    overflow: visible;
+    height: auto;
+}
+
+.manage-contacts .edit-contact-modal .box {
+    display: block;
+    height: auto;
+}
+
+.manage-contacts .modal .edit-contact-modal {
+    padding-top: 40px;
+    padding-bottom: 0;
+}
+
+.manage-contacts .edit-contact-modal .edit-address {
+    padding-bottom: 40px;
+}
