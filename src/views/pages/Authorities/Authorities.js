@@ -267,12 +267,10 @@ class Authorities extends Component {
     pagination = page => {
         this.setState({
           rpp: this.state.rpp,
-        })
-        let resData = {
-          page: page,
-          rpp: this.state.rpp,
-        }
+          page: page
+        }, ()=>{
         this.getAuthorities(this.onBigGetSuccess)
+        });  
     }
 
     smallpagination = smallpage => {
@@ -284,14 +282,15 @@ class Authorities extends Component {
         });
     }
 
-    handlePageClick = data => {
-
-        let select = data.selected + 1
+    handlePageClick = vaule => {
+        console.log("data" + vaule.selected);
+        let select = vaule.selected + 1
         this.pagination(select)
     }
 
-    handleSmallPageClick = data =>{
-        let selected = data.selected + 1
+    handleSmallPageClick = vaule =>{
+        console.log("data" + vaule.selected);
+        let selected = vaule.selected + 1
         this.smallpagination(selected)
     }
 
@@ -308,6 +307,15 @@ class Authorities extends Component {
         }
 
         this.getAuthorities(undefined, resData)
+    }
+
+    onTableHeaderItemClick = (value = {}) =>{
+        console.log(value);
+        this.setState({
+            ordering:value.order
+        }, ()=>{
+        this.getAuthorities()
+        });
     }
     
     render() {
@@ -407,7 +415,7 @@ class Authorities extends Component {
                             <BigTable
                                 toggleAuthorityForm={this.toggleAuthorityForm}
                                 deleteAuthority={this.deleteAuthority}
-                                onTableHeaderItemClick={this.onTableHeaderItemClick}
+                                makeSortRequest={this.onTableHeaderItemClick}
                                 words={words}
                                 goToUrl={this.goToUrl}
                                 clickpagination={this.handlePageClick}

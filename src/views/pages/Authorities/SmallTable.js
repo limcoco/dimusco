@@ -4,8 +4,7 @@ import PaginationHeader from '../../pages/SetPrice/components/PaginationHeader'
 
 class SmallTable extends Component {
 
-    handlePageClick = ()=>{
-        const data = this.props;
+    handlePageClick = data=> {
         this.props.clickpagination(data);
       }
   

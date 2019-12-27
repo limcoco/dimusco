@@ -1,10 +1,12 @@
 import React, { Component, Fragment } from 'react'
+import PropTypes from 'prop-types'
 import Table from '../../component/Table/Table.js'
 import PaginationHeader from '../../pages/SetPrice/components/PaginationHeader'
 
 class BigTable extends Component {
     constructor(props) {
       super(props);
+      this.onTableHeaderItemClick =  this.onTableHeaderItemClick.bind(this)
     };
     
     handlePageClick = data =>{
@@ -18,6 +20,16 @@ class BigTable extends Component {
 
     callScoresWithRPP = ()=>{
       this.props.clickcallScoresWithRPP()
+    }
+
+    onTableHeaderItemClick(e, data) {
+      let fields = data.data.sort.split(',')
+      for (let i = 0; i < fields.length; i++) {
+        if (!data.ascending) {
+          fields[i] = '-' + fields[i]
+        }
+      }
+      this.props.makeSortRequest({order: fields.join(',')})
     }
 
     render() {
@@ -125,7 +137,7 @@ class BigTable extends Component {
                         <Table
                             columns={tableColumns}
                             columnsExtras={tableColumnExtras}
-                            onHeaderItemClick={onTableHeaderItemClick}
+                            onHeaderItemClick={this.onTableHeaderItemClick}
                             noDataDesc={words.library_empty}
                         >
                             {data.map((item) => {
@@ -168,4 +180,7 @@ class BigTable extends Component {
     }
 }
 
+BigTable.PropTypes ={
+  makeSortRequest: PropTypes.func.isRequired
+}
 export default BigTable
