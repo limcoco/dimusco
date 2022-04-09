@@ -7,7 +7,7 @@
     "axios": "^0.17.1",
     "classnames": "^2.2.5",
     "crypto-js": "^3.1.9-1",
-    "moment": "^2.20.1",
+    "moment": "^2.29.2",
     "paypal-checkout": "^4.0.204",
     "query-string": "^5.0.1",
     "rc-slider": "^8.6.4",
